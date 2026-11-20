@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nexar_client",
+  "version": "${version}",
+  "name": "Nexar Client",
+  "description": "Client-side utilities for Fabric 1.21.4.",
+  "authors": ["Nexar"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.nexar.client.NexarClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
